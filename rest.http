@@ -1,0 +1,23 @@
+### user sign up endpoint
+
+POST http://localhost:3001/v1/user HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Lewis",
+    "company": "LewisCorp",
+    "address": "Pasay",
+    "phone": "0123aa456",
+    "email": "aasdmeow11111233344443@gmail.com",
+    "password": "secret13"
+}
+
+### user sign up endpoint
+
+POST http://localhost:3001/v1/user/login HTTP/1.1
+content-type: application/json
+
+{
+    "email": "aasdmeow11111233344443@gmail.com1",
+    "password": "secret13"
+}
